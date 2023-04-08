@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #3333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.container{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+}
+
+#inputText{
+    width: 300px;
+    height: 45px;
+    border: 3px solid rgb(220, 74, 22);
+    font-size: 25px;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+#add-btn{
+    height: 45px;
+    width: 80px;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: green;
+    border: 1px solid black;
+    color: #fff;
+}
+#add-btn:active{
+    background-color: blue;
+}
+
+#clear-btn{
+    height: 45px;
+    width: 100px;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid black;
+    color: #fff;
+}
+#clear-btn:active{
+    background-color: black;
+}
+
+.paragraph-style{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+
+
+.todos{
+    margin-top: 25px;
+}
